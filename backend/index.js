@@ -17,7 +17,8 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // Configure CORS to allow multiple origins
 const allowedOrigins = [
     'http://localhost:3000',
-    'http://localhost:5173'
+    'http://localhost:5173',
+    'https://formbotproject-master.onrender.com'
 ];
 
 app.use(cors({
